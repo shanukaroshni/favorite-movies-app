@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+🎬 Favorite Movies App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and interactive React web application that lets users add, view, and manage their favorite movies — complete with posters, release years, and personal favorites.
 
-## Available Scripts
+🚀 Overview
 
-In the project directory, you can run:
+Favorite Movies App is a React-based web project that allows users to maintain a personalized movie collection. It uses the OMDb API to automatically fetch movie details like posters and release years. The app provides a clean, responsive UI and persists data in the browser’s local storage.
 
-### `npm start`
+✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎥 Add Movies: Users can add any movie by typing its name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🖼️ Auto-Fetch Details: Automatically fetches poster, year, and rating using the OMDb API.
 
-### `npm test`
+⭐ Mark as Favorite: Highlight your must-watch or favorite movies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🗑️ Delete Movies: Remove unwanted movies from your list.
 
-### `npm run build`
+💾 Local Storage Support: Keeps your movies even after refreshing the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📱 Responsive UI: Works smoothly on desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🧠 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚛️ React.js – Component-based front-end framework
 
-### `npm run eject`
+🎨 CSS / Tailwind CSS – Clean, responsive UI styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🌐 OMDb API – Movie details and poster fetching
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+💾 LocalStorage – Data persistence
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧩 JavaScript (ES6) – Logic and interactivity
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🗂️ Project Structure
+favorite-movies/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── components/
+├── package.json
+└── README.md
 
-## Learn More
+⚙️ How to Run Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone this repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/shanukaroshni/favorite-movies-app.git
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navigate to the project folder:
 
-### Analyzing the Bundle Size
+cd favorite-movies-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the development server:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Open in browser: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎨 UI Highlights
+
+Elegant layout with centered content
+
+Movie posters displayed alongside titles
+
+Smooth hover animations on buttons and cards
+
+Consistent theme and clean typography
+
+🌟 Future Enhancements
+
+🎬 Movie trailer integration
+
+🔍 Search and filter options
+
+🎭 Genre categorization
+
+☁️ Cloud-based login to save movie lists
